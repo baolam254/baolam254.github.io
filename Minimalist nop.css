@@ -1,0 +1,96 @@
+/* CSS Document */
+body{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+#Menu_top{
+	background: #E5D5CD;
+	height: 40px;	
+}
+#Banner{
+	background: red;
+	height:667px;
+	width: 1000px;
+}
+#Main #left {
+	width:300px;
+	float: left;
+	min-height: 400px;
+}
+#Main #right{
+	width: 300px;
+	background: #C6C0BE;
+	float: right;
+	min-height: 400px;
+}
+#Main #center{
+	width: 400px;	
+	float: left;
+	min-height: 400px;
+}
+#Main #center h2{
+	background: #EAEAEA; 
+	font-size: 20px;
+	margin-top: auto;
+	margin-right:10px;
+	height: 30px;
+	font-family: 'Merriweather', serif;
+}
+#Main #center p {
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Bellota Text', cursive;
+}
+#Menu_top ul{
+	margin: 0px;
+	padding: 0px;
+}
+#Menu_top ul li{
+	list-style: none;
+	float:left;
+	font-family: 'Bellota Text', cursive;
+	font-size: 15px;
+}
+#Menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px ;
+	line-height: 40px;
+	color: #000000;
+	padding: 0px 20px 0px 20px;  
+	border-right: 1px solid #FFFFFF;
+}
+#Menu_top ul2{
+	margin: 0px;
+	padding: 0px;
+}
+#Menu_top ul2 li{
+	list-style: none;
+	float:right;
+	font-family: 'Bellota Text', cursive;
+	font-size: 20px;
+}
+#Menu_top ul2 li a{
+	text-decoration: none;
+	display: block;
+	height: 40px ;
+	line-height: 40px;
+	color: #000000;
+	padding: 0px 20px 0px 20px;  
+	border-right: 1px solid #FFFFFF;
+	
+}
+#footer{
+	background: #E5D5CD;
+	width: 1000px ;
+	text-align: center;
+	height:50px;
+	color: #000000;
+	clear: left;
+	line-height: 60px;
+	font-family: 'Bellota Text', cursive;
+	font-size: 17px;
+}
